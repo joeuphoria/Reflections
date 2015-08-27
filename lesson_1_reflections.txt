@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you to see the bug that was introduced?
+
+It helped to spot typos in spelling which could be an easy mistake while writing lines code.
+I see how this could save a ton of time when things change unintentionally visually/functionally and debugging is necessary.
+
+How could easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Easy access to the entire history of a file can make me a more efficient programmer by organizing versions. This eliminates the time searching for each version to check against each other when I've made mistakes/changes that need debugging.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+The pros of manually choosing when to create a commit (user created checkpoints/versions) in Git are that you have greater control of making a single logical change per commit. Also, it allows for better understanding of why a logical change was made, as Git commits require the user to supply a commit message each time a commit is created.
+The cons of manually choosing when to create a commit in Git are user error such as poor judgement calls in making the commit too small or too large, or, inconsistently remembering to create a commit.
+The pros of Google Docs are that you will always have prior versions available as Google Docs automatically saves versions/checkpoints based upon intervals.
+The cons of Google Docs automatically saving versions/checkpoints is that you have no control over whether the version/checkpoint is made after single logical changes. This can make it confusing when going to compare files for changes/debugging. Also, there will be no reference to what changes have been made from version to version.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Using the command git log allows me to view a log of all commits created. If I used good judgement and created a commit for every logical change to a file, then I should easily be able to distinguish when and what changes I made during that specific point in time.
+Using the command git diff allows me to compare and contrast what changes I made from commit to commit. This enables greater specificity of lines that I've added or deleted from version to version.
+
+How might using version control make you more confident to make changes that could break something?
+
+Version control makes me more confident to make changes that could break
+something with the abilities of the git checkout command. Git checkout allows
+ me to find when a bug was introduced in a commit. The git checkout command
+ allows the user to run the commit and test the code. It also allows you to
+ experiment without making permanent changes that are irreversible.
+Furthermore, git checkout allows the user to go into a 'detached HEAD' state.
+You can look around, make experimental changes and commit them,
+and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use Git to organize and save versions/commits of files while I am developing applications and web pages. Ss
