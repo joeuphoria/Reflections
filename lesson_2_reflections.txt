@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When I initialize a Git repository, Git does not create any commits, but it does create an empty Git repository. We initialize a Git repository and run command git status to make sure that the .git file is actually a .git file, meaning, it will have no commits.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+How is the staging area different than the working directory and the repository?
+
+The working directory is the directory of files that are stored on your computer's hard-drive. Both the working directory and the repository are directories, however, the repository is created using the command git init, stores hidden metadata about the history of the repository, and when created, is empty. The repository will store your commits. The staging area is where a person adds changes/files from the working directory that are to be committed into the repository.   
