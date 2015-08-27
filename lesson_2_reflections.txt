@@ -6,4 +6,8 @@ How is the staging area different from the working directory and the repository?
 
 How is the staging area different than the working directory and the repository?
 
-The working directory is the directory of files that are stored on your computer's hard-drive. Both the working directory and the repository are directories, however, the repository is created using the command git init, stores hidden metadata about the history of the repository, and when created, is empty. The repository will store your commits. The staging area is where a person adds changes/files from the working directory that are to be committed into the repository.   
+The working directory is the directory of files that are stored on your computer's hard-drive. Both the working directory and the repository are directories, however, the repository is created using the command git init, stores hidden metadata about the history of the repository, and when created, is empty. The repository will store your commits. The staging area is where a person adds changes/files from the working directory that are to be committed into the repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Using the command 'git diff --staged' allows the user to view the staging area before making a commit. If there are any unwanted changes in the staging area from the working directory, the user can unstage/remove a staged file from the staging area using the command 'git reset HEAD filename' before committing changes to the repository. Command 'git reset --hard' should be used with caution as it will reset any changes made to the working directory and the staging area. These changes will not be recoverable.
