@@ -11,3 +11,7 @@ The working directory is the directory of files that are stored on your computer
 How can you use the staging area to make sure you have one commit per logical change?
 
 Using the command 'git diff --staged' allows the user to view the staging area before making a commit. If there are any unwanted changes in the staging area from the working directory, the user can unstage/remove a staged file from the staging area using the command 'git reset HEAD filename' before committing changes to the repository. Command 'git reset --hard' should be used with caution as it will reset any changes made to the working directory and the staging area. These changes will not be recoverable.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Some situations in which branches would be helpful in keeping our history organized would be to allow the user to make experimental changes to a commit, or, to make a version of your project in a different language or with different features, etc. Also, if you checkout a branch, and then make a commit, the branch label automatically updates to the new commit.
