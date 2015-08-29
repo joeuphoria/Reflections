@@ -15,3 +15,7 @@ Using the command 'git diff --staged' allows the user to view the staging area b
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Some situations in which branches would be helpful in keeping our history organized would be to allow the user to make experimental changes to a commit, or, to make a version of your project in a different language or with different features, etc. Also, if you checkout a branch, and then make a commit, the branch label automatically updates to the new commit!
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is that the commit history of the branch that you are merging into the master branch is being added to the commit history of the master branch. This consolidates the the commits from one branch into the master branch for easier reference. We represent merging in the diagram the way we do because we are merging the most recent 'branch_name' commit into the most recent commit of the master branch. That way both branches meet at the current tip of the branch.  
