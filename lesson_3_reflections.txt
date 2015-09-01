@@ -1,1 +1,3 @@
 When would you want to create a remote repository rather than keeping all of your local work?
+
+I would want to create a remote repository to allow other users to access, clone, and edit files from the repository on their own working directories. Also, it allows me to collaborate with other users and share progress or changes that I have committed. 
